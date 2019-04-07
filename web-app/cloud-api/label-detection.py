@@ -41,7 +41,7 @@ sorted_anno = collections.OrderedDict(sorted(annotations.items(), reverse=True))
 # print results to table on gui.
 for confs, lbls in sorted_anno.items():
     print(confs, lbls)
-
+  
 
 end = timer()
 print('\n',end - start, 'sec')
