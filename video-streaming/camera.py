@@ -6,8 +6,9 @@ class VideoCamera(object):
         # from a webcam, comment the line below out and use a video file
         # instead.
         #url = "http://100.82.255.163:4747/mjpegfeed?640x480"
-        self.video = cv2.VideoCapture(0)
-        #self.video = cv2.VideoCapture('http://100.82.255.163:4747/mjpegfeed')
+        # self.video = cv2.VideoCapture(0)
+        #self.video = cv2.VideoCapture('http://100.82.250.3:4747/mjpegfeed?640x480')
+        self.video = cv2.VideoCapture('http://100.82.133.200:4747/mjpegfeed?640x480')
         #self.video = cv2.VideoCapture('gs://demomaker/cat.mp4')
         # If you decide to use video.mp4, you must have this file in the folder
         # as the main.py.
